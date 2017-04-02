@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import moment from 'moment';
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -57,8 +59,8 @@ const Row = (props) =>{
                    <Text style={styles.amountText}>{rowData['num.backers']}</Text>
                </View>
                <View style={styles.detailContainer}>
-                   <Text>{'By -'}</Text>
-                   <Text style={styles.amountText}>{rowData.by}</Text>
+                   <Text>{'End Date -'}</Text>
+                   <Text style={styles.amountText}>{moment(rowData['end.time']).format('ll')}</Text>
                </View>
            </View>
             <TouchableOpacity style={styles.arrowContainer} onPress={()=>viewPage(rowData.url)}>

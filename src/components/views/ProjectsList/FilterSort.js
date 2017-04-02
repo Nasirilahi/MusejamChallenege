@@ -14,15 +14,15 @@ import Menu, {
     MenuTrigger
 } from 'react-native-menu';
 
-const FilterSort = ()=>{
+const FilterSort = ({sortingListView})=>{
     return(
         <View style={styles.filterSortContainer}>
-            <Menu onSelect={(value) => console.log(`Sort by ${value}`)}>
+            <Menu onSelect={(value) => sortingListView(value)}>
                     <MenuTrigger style={styles.menuTrigger}>
                         <Icon name='sort-amount-desc' size={20} color='#a9a9a9'/>
                     </MenuTrigger>
                     <MenuOptions style={styles.menuOptions}>
-                        <MenuOption value='sorByAlphabet'>
+                        <MenuOption value='sortByAlphabet'>
                             <Text style={styles.menuOpetionsText}>Sort Alphabetically</Text>
                         </MenuOption>
                         <MenuOption value='sortByTime'>
@@ -30,12 +30,12 @@ const FilterSort = ()=>{
                         </MenuOption>
                     </MenuOptions>
             </Menu>
-            <Menu onSelect={(value) => console.log(`filter by number ${value}`)}>
+            <Menu onSelect={(value) => console.log(value)}>
                 <MenuTrigger style={styles.menuTrigger}>
                     <Icon name='filter' size={20} color='#a9a9a9'/>
                 </MenuTrigger>
                 <MenuOptions style={styles.menuOptions}>
-                    <MenuOption value='sorByAlphabet'>
+                    <MenuOption value='filterbyNumber'>
                         <Text style={styles.menuOpetionsText}>Filter by number of backers</Text>
                     </MenuOption>
                 </MenuOptions>

@@ -16,6 +16,7 @@ class ProjectList extends Component{
         super(props);
         this.state = {
             searchText:'',
+            sortBy:'',
         }
     }
 
@@ -23,6 +24,9 @@ class ProjectList extends Component{
         this.setState({searchText});
     };
 
+    sortingListView = (sortBy) => {
+        this.setState({sortBy});
+    };
     render(){
         return(
             <MenuContext style={{ flex: 1 }} ref='MenuContext'>
@@ -30,8 +34,13 @@ class ProjectList extends Component{
                     <Header
                         searchText={this.state.searchText}
                         setSearchText={this.setSearchText}
+                        sortingListView={this.sortingListView}
                     />
-                    <ListContainer data={this.props.projectList.data} {...this.props} searchText={this.state.searchText} />
+                    <ListContainer
+                        data={this.props.projectList.data} {...this.props}
+                        searchText={this.state.searchText}
+                        sortBy={this.state.sortBy}
+                    />
                 </View>
             </MenuContext>
         );
