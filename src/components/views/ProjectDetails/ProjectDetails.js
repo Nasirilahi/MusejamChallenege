@@ -3,15 +3,18 @@ import {
     StyleSheet,
     View,
     Text,
+    WebView
 } from 'react-native';
+import {ProjectDetails_URL} from '../../../constants/ApiConstants';
 
-const ProjectsDetails = ()=>{
+
+const ProjectsDetails = (props)=>{
+    const uri = `${ProjectDetails_URL}${props.route.url}`;
     return(
-        <View>
-            <Text>
-                ProjectsDetails
-            </Text>
-        </View>
+        <WebView
+            source={{uri:uri}}
+            style={{marginTop: 20}}
+        />
     );
 };
 

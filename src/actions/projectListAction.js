@@ -8,7 +8,6 @@ import { API_URL } from '../constants/ApiConstants';
 export function getProjectsList(){
     return (dispatch)=> {
         dispatch(projectListRequest());
-        console.log('API_URLAPI_URLAPI_URL',API_URL);
         fetch(API_URL)
             .then((response) => response.json())
             .then(data => {
