@@ -12,8 +12,7 @@ const styles = StyleSheet.create({
     listContainer:{
         flex:9,
         flexDirection:'row',
-        borderColor:'yellow',
-        borderWidth:1,
+        paddingHorizontal:15,
     },
     searchContainer:{
         flexDirection:'row',

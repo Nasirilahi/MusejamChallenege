@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import styles from './styles';
 import ListRow from './ListRow';
+import Header from './Header';
 
 const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 
@@ -31,7 +32,7 @@ class ListContainer extends Component{
     render(){
         return(
             <View style={styles.listContainer}>
-                <ScrollView>
+                <ScrollView showsVerticalScrollIndicator={false}>
                     {
                         this.props.data &&
                         <ListView
