@@ -17,8 +17,8 @@ https://facebook.github.io/react-native/docs/getting-started.html
 
 * Make sure `nodejs` is installed
 * React Native CLI is needed, do `npm install -g react-native-cli`
-* clone the repo `git clone https://github.com/Nasirilahi/react-native-chat.git`
-* move into the project directory `cd react-native-chat`
+* clone the repo `git clone https://github.com/Nasirilahi/MusejamChallenege.git`
+* move into the project directory and
 * Run `npm install` to install the dependencies
 
 
