@@ -63,10 +63,11 @@ class ListContainer extends Component{
            });
        }
        if(sortBy === 'sortByTime'){
+
            let dateSortedData = this.props.data.sort((a,b) => {
                const c = new Date(a['end.time']);
                const d = new Date(b['end.time']);
-               return c > d ? 1 : -1;
+               return c - d;
            });
            this.setState({
                dataSource: this.state.dataSource.cloneWithRows(dateSortedData),
