@@ -9,7 +9,6 @@ import {
 } from 'react-native';
 import styles from './styles';
 import ListRow from './ListRow';
-import Header from './Header';
 
 const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 
@@ -38,7 +37,6 @@ class ListContainer extends Component{
             let note = row.title.toLowerCase();
             return note.search(text) !== -1;
         });
-        console.log('fil',filteredData);
         this.setState({
             dataSource: this.state.dataSource.cloneWithRows(filteredData),
         });

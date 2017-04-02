@@ -138,6 +138,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/daffomac-13/Documents/Projects/MusejamChallenege/android/app/build/intermediates/exploded-aar/MusejamChallenge/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b319ff9834bbeb9be394687614eb86892699ea14">
+        <dex dex="/Users/daffomac-13/Documents/Projects/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/MusejamChallenge-react-native-vector-icons-unspecified_8d8e091b05e94924393da15e39678f43227a8cc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/daffomac-13/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"

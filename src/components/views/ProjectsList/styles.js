@@ -28,6 +28,16 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         marginRight:15,
     },
+    menuTrigger:{
+        marginLeft:10,
+        width:40,
+        alignItems:'center'
+    },
+    menuOptions:{
+    },
+    menuOpetionsText:{
+        color:'rgba(0,0,0,0.54)'
+    }
 });
 
 export default styles;
