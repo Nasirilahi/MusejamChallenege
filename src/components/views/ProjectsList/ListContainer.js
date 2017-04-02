@@ -11,6 +11,10 @@ import ListRow from './ListRow';
 import { connect } from 'react-redux';
 
 const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
+/*
+ *
+ * functional ListView component to show projects list
+ * **/
 
 class ListContainer extends Component{
     constructor() {

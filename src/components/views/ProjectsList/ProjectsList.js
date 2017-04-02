@@ -13,6 +13,9 @@ import ListContainer from './ListContainer';
 import { sortBy } from '../../../actions/sortActions';
 import { bindActionCreators } from 'redux';
 
+/**
+ * Projects list main component that shows list of projects & Header
+ * */
 class ProjectList extends Component{
     constructor(props){
         super(props);

@@ -5,6 +5,7 @@ import {
 } from '../constants/ActionsConstants';
 import { API_URL } from '../constants/ApiConstants';
 
+
 export function getProjectsList(){
     return (dispatch)=> {
         dispatch(projectListRequest());
@@ -20,12 +21,18 @@ export function getProjectsList(){
     };
 }
 
+/*
+*action when ajax request has been made
+ */
 function projectListRequest(){
     return{
         type:PROJECT_LIST_REQUREST,
     };
 }
 
+/**
+ * action when success response recieved
+ * */
 function projectListSuccess(data){
     return{
         type:PROJECT_LIST_SUCCESS,
@@ -33,6 +40,9 @@ function projectListSuccess(data){
     };
 }
 
+/**
+ * action when error response recieved
+ * */
 function projectListFailure(err){
     return{
         type:PROJECT_LIST_FAILURE,

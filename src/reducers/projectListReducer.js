@@ -10,7 +10,7 @@ const initialState ={
         isLoading:true,
 };
 
-export default function loginReducer(state=initialState , action){
+export default function projectListReducer(state=initialState , action){
 
     switch (action.type) {
         case PROJECT_LIST_REQUREST:

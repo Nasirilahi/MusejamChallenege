@@ -8,6 +8,9 @@ import {
 } from 'react-native';
 import styles from './styles';
 
+/**
+ * Search bar component
+ * **/
 const Search = ({searchText,setSearchText})=>{
     return(
         <View style={styles.searchContainer}>

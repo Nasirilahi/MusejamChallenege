@@ -4,7 +4,6 @@ import {
     StyleSheet,
     View,
     Text,
-    TouchableOpacity
 } from 'react-native';
 import styles from './styles';
 import Menu, {
@@ -13,6 +12,11 @@ import Menu, {
     MenuOption,
     MenuTrigger
 } from 'react-native-menu';
+
+/*
+ *
+ * functional Filter component filter/Sorting options
+ * **/
 
 const FilterSort = ({sortingListView})=>{
     return(
