@@ -1,4 +1,3 @@
-import Icon from 'react-native-vector-icons/FontAwesome';
 import React, { Component } from 'react';
 import {
     StyleSheet,
@@ -9,6 +8,7 @@ import {
 } from 'react-native';
 import styles from './styles';
 import ListRow from './ListRow';
+import { connect } from 'react-redux';
 
 const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 
@@ -22,19 +22,15 @@ class ListContainer extends Component{
     componentDidMount(){
         this.setState({
             dataSource:this.state.dataSource.cloneWithRows(this.props.data),
-        })
-
+        });
     }
     componentWillReceiveProps = (nextProps) => {
-       if(nextProps.searchText){
+       if(nextProps.searchText !== ''){
            this.searchResult(nextProps.searchText);
        }
-        if(nextProps.sortBy){
-            this.sortedResult(nextProps.sortBy);
-        }
-        // if(nextProps.data){
-        //     this.setState({ dataSource:this.state.dataSource.cloneWithRows(nextProps.data)});
-        // }
+       if(nextProps.sortBy.sort_by !== '' && nextProps.sortBy.sort_by !== this.props.sortBy.sort_by){
+           this.sortedResult(nextProps.sortBy.sort_by);
+       }
     };
 
     searchResult = (value) => {
@@ -80,7 +76,6 @@ class ListContainer extends Component{
     };
 
     render(){
-
         return(
             <View style={styles.listContainer}>
                 <ScrollView showsVerticalScrollIndicator={false}>
@@ -100,4 +95,6 @@ class ListContainer extends Component{
     }
 }
 
-export default ListContainer;
+const mapStateToProps= ({sortBy}) => sortBy;
+
+export default connect(mapStateToProps)(ListContainer);

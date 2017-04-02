@@ -1,4 +1,3 @@
-import Icon from 'react-native-vector-icons/FontAwesome';
 import React, { Component } from 'react';
 import {
     StyleSheet,
@@ -9,6 +8,11 @@ import {
 import styles from './styles';
 import Search from './Search';
 import FilterSort from './FilterSort';
+
+/*
+*
+* functional Header component to show a Search bar and filter/Sorting options
+* **/
 
 const Header = ({searchText,setSearchText, sortingListView})=>{
     return(

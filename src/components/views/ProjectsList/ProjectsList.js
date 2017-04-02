@@ -10,6 +10,8 @@ import { MenuContext } from 'react-native-menu';
 import styles from './styles'
 import Header from './Header';
 import ListContainer from './ListContainer';
+import { sortBy } from '../../../actions/sortActions';
+import { bindActionCreators } from 'redux';
 
 class ProjectList extends Component{
     constructor(props){
@@ -19,14 +21,10 @@ class ProjectList extends Component{
             sortBy:'',
         }
     }
-
     setSearchText = (searchText) => {
         this.setState({searchText});
     };
 
-    sortingListView = (sortBy) => {
-        this.setState({sortBy});
-    };
     render(){
         return(
             <MenuContext style={{ flex: 1 }} ref='MenuContext'>
@@ -34,12 +32,11 @@ class ProjectList extends Component{
                     <Header
                         searchText={this.state.searchText}
                         setSearchText={this.setSearchText}
-                        sortingListView={this.sortingListView}
+                        sortingListView={this.props.sortByAction}
                     />
                     <ListContainer
                         data={this.props.projectList.data} {...this.props}
                         searchText={this.state.searchText}
-                        sortBy={this.state.sortBy}
                     />
                 </View>
             </MenuContext>
@@ -47,10 +44,18 @@ class ProjectList extends Component{
     }
 }
 
-const mapStateToProps= ({projectList}) =>{
+const mapStateToProps= ({projectList,sortBy}) =>{
     return{
-        projectList
+        projectList,
+        sortBy,
     };
 };
+const mapDispatchToProps = (dispatch) =>{
+    return{
+        sortByAction: bindActionCreators(sortBy, dispatch)
 
-export default connect(mapStateToProps)(ProjectList);
+    };
+}
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(ProjectList);

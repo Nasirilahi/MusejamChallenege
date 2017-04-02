@@ -8,7 +8,7 @@ import {
     ActivityIndicator
 } from 'react-native';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux'
+import { bindActionCreators } from 'redux';
 import {getProjectsList} from '../actions/projectListAction';
 /**
  * imported all components here
