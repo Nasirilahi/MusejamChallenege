@@ -9,11 +9,14 @@ import {
     TouchableOpacity
 } from 'react-native';
 import {ProjectDetails_URL} from '../../../constants/ApiConstants';
+import Loader from '../Loader';
 
 const WebViewComponent = ({uri}) => (
     <WebView
         source={{uri:uri}}
         style={{top:-40}}
+        renderLoading ={() => <Loader/>}
+        startInLoadingState={true}
     />
 );
 

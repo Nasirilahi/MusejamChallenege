@@ -15,7 +15,7 @@ import {getProjectsList} from '../actions/projectListAction';
  * */
 import ProjectDetails from './views/ProjectDetails/ProjectDetails';
 import ProjectsList from './views/ProjectsList/ProjectsList';
-
+import Loader from './views/Loader';
 /**
  * We can put all components who will be views in application in to a constants object
  * then simply pass the name as a key to this object to render a particular page.
@@ -54,13 +54,7 @@ class Main extends Component{
         const { isLoading } = projectList;
         if(isLoading){
             return(
-                <View style={{alignItems:'center',justifyContent:'center',flex:1}}>
-                    <ActivityIndicator
-                        animating={true}
-                        style={[styles.centering, {height: 80}]}
-                        size="large"
-                    />
-                </View>
+                <Loader/>
             );
         }
         else{
