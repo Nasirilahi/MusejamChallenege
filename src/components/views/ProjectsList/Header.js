@@ -10,10 +10,13 @@ import styles from './styles';
 import Search from './Search';
 import FilterSort from './FilterSort';
 
-const Header = ()=>{
+const Header = ({searchText,setSearchText})=>{
     return(
         <View style={styles.headerContainer}>
-            <Search/>
+            <Search
+                searchText={searchText}
+                setSearchText={setSearchText}
+            />
             <FilterSort/>
         </View>
     );

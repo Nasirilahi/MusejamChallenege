@@ -26,9 +26,28 @@ class ListContainer extends Component{
         })
 
     }
+    componentWillReceiveProps = (nextProps) => {
+       if(nextProps.searchText){
+           this.searchResult(nextProps.searchText);
+       }
+    };
+
+    searchResult = (searchText) => {
+        let text = searchText.toLowerCase();
+        let filteredData = this.props.data.filter((row) => {
+            let note = row.title.toLowerCase();
+            return note.search(text) !== -1;
+        });
+        console.log('fil',filteredData);
+        this.setState({
+            dataSource: this.state.dataSource.cloneWithRows(filteredData),
+        });
+    };
+
     viewProjectDetailsPage = (url)=>{
     this.props.navigator.push({name: 'ProjectDetails', url: url});
     };
+
     render(){
         return(
             <View style={styles.listContainer}>

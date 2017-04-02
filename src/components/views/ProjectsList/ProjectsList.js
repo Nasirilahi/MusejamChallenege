@@ -11,12 +11,25 @@ import Header from './Header';
 import ListContainer from './ListContainer';
 
 class ProjectList extends Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            searchText:'',
+        }
+    }
+
+    setSearchText = (searchText) => {
+        this.setState({searchText});
+    };
 
     render(){
         return(
             <View style={styles.container}>
-                <Header/>
-                <ListContainer data={this.props.projectList.data} {...this.props}/>
+                <Header
+                    searchText={this.state.searchText}
+                    setSearchText={this.setSearchText}
+                />
+                <ListContainer data={this.props.projectList.data} {...this.props} searchText={this.state.searchText} />
             </View>
         );
     }
