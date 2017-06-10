@@ -14,14 +14,15 @@ import styles from './styles';
 const Search = ({searchText,setSearchText})=>{
     return(
         <View style={styles.searchContainer}>
-            <Icon name='search' size={20} color='#a9a9a9'/>
+            <Icon name='search' size={20} color='white'/>
             <TextInput
                 style={styles.textInput}
                 onChangeText={(text) => setSearchText(text)}
                 placeholder={'Search by name'}
                 autoCapitalize='none'
-                placeholderTextColor='grey'
                 value={searchText}
+                underlineColorAndroid={'white'}
+                placeholderTextColor={'rgba(255,255,255,0.70)'}
             />
         </View>
     );

@@ -23,7 +23,7 @@ const FilterSort = ({sortingListView})=>{
         <View style={styles.filterSortContainer}>
             <Menu onSelect={(value) => sortingListView(value)}>
                     <MenuTrigger style={styles.menuTrigger}>
-                        <Icon name='sort-amount-desc' size={20} color='#a9a9a9'/>
+                        <Icon name='sort-amount-desc' size={20} color='white'/>
                     </MenuTrigger>
                     <MenuOptions style={styles.menuOptions}>
                         <MenuOption value='sortByAlphabet'>
@@ -36,7 +36,7 @@ const FilterSort = ({sortingListView})=>{
             </Menu>
             <Menu onSelect={(value) => console.log(value)}>
                 <MenuTrigger style={styles.menuTrigger}>
-                    <Icon name='filter' size={20} color='#a9a9a9'/>
+                    <Icon name='filter' size={20} color='white'/>
                 </MenuTrigger>
                 <MenuOptions style={styles.menuOptions}>
                     <MenuOption value='filterbyNumber'>

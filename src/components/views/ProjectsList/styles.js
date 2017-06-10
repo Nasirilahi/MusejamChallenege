@@ -3,6 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container:{
         flex:1,
+        backgroundColor:'#3E392E'
     },
     headerContainer:{
         flex:1,
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
     menuOptions:{
     },
     menuOpetionsText:{
-        color:'rgba(0,0,0,0.54)'
+        color:'rgba(0,0,0,0.80)'
     }
 });
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/Ionicons';
+// import ArrowIcon from 'react-native-vector-icons/Ionicons';
 import moment from 'moment';
 
 /**
@@ -14,20 +15,20 @@ const Row = (props) =>{
            <View style={styles.dataContainer}>
                <Text style={styles.titleText}>{`${rowData.title}`}</Text>
                <View style={styles.detailContainer}>
-                   <Text>{'Pleadge -'}</Text>
+                   <Text style={{color :'#D1A828'}}>{'Pleadge -'}</Text>
                    <Text style={styles.amountText}>{rowData['amt.pledged']}</Text>
                </View>
                <View style={styles.detailContainer}>
-                   <Text>{'Backer - '}</Text>
+                   <Text style={{color :'#D1A828'}}>{'Backer - '}</Text>
                    <Text style={styles.amountText}>{rowData['num.backers']}</Text>
                </View>
                <View style={styles.detailContainer}>
-                   <Text>{'End Date -'}</Text>
-                   <Text style={styles.amountText}>{moment(rowData['end.time']).format('ll')}</Text>
+                   <Text style={{color :'#D1A828'}}>{'End Date -'}</Text>
+                   <Text style={[styles.amountText,]}>{moment(rowData['end.time']).format('ll')}</Text>
                </View>
            </View>
             <TouchableOpacity style={styles.arrowContainer} onPress={()=>viewPage(rowData.url)}>
-                    <Text style={styles.arrowText}>{'>'}</Text>
+                    <Icon name='ios-arrow-forward' color='#a9a9a9' size={20} />
             </TouchableOpacity>
         </View>
     );
@@ -42,10 +43,6 @@ const styles = StyleSheet.create({
         borderColor:'rgba(0,0,0,0.20)',
         borderWidth:1,
         borderRadius:3,
-        elevation: 3,
-        shadowColor:'rgba(0,0,0,0.24)',
-        shadowOpacity:10,
-        shadowOffset:{height:5,},
         backgroundColor:'white',
     },
     dataContainer:{
@@ -54,6 +51,7 @@ const styles = StyleSheet.create({
     arrowContainer:{
         marginLeft:5,
         justifyContent:'center',
+        paddingHorizontal:8,
     },
     detailContainer:{
         flexDirection:'row',
@@ -63,11 +61,6 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color:'#63aede',
         marginBottom:5,
-    },
-    arrowText:{
-        fontSize:20,
-        fontWeight:'bold',
-        color:'#a9a9a9',
     },
     amountText:{
         color:'rgba(0,0,0,0.54)',
