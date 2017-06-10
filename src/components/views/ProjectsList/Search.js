@@ -14,7 +14,7 @@ import styles from './styles';
 const Search = ({searchText,setSearchText})=>{
     return(
         <View style={styles.searchContainer}>
-            <Icon name='search' size={20} color='white'/>
+            <Icon style={{backgroundColor:'transparent'}} name='search' size={20} color='white'/>
             <TextInput
                 style={styles.textInput}
                 onChangeText={(text) => setSearchText(text)}

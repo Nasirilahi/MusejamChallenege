@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native-linear-gradient/BVLinearGradient/BVLinearGradientManager.m \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native-linear-gradient/BVLinearGradient/BVLinearGradientManager.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native-linear-gradient/BVLinearGradient/BVLinearGradient.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h

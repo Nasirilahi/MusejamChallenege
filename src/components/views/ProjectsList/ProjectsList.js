@@ -12,6 +12,7 @@ import Header from './Header';
 import ListContainer from './ListContainer';
 import { sortBy } from '../../../actions/sortActions';
 import { bindActionCreators } from 'redux';
+import LinearGradient from 'react-native-linear-gradient';
 
 /**
  * Projects list main component that shows list of projects & Header
@@ -31,7 +32,7 @@ class ProjectList extends Component{
     render(){
         return(
             <MenuContext style={{ flex: 1 }}>
-                <View style={styles.container}>
+                <LinearGradient colors={['#77A1D3', '#79CBCA', '#E684AE']} style={styles.container}>
                     <Header
                         searchText={this.state.searchText}
                         setSearchText={this.setSearchText}
@@ -41,7 +42,7 @@ class ProjectList extends Component{
                         data={this.props.projectList.data} {...this.props}
                         searchText={this.state.searchText}
                     />
-                </View>
+                </LinearGradient>
             </MenuContext>
         );
     }
