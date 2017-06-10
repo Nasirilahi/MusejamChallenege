@@ -201,21 +201,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="962b06c207e808c0557ffd6163ac584025a96021">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.42.3_e8fefb51a1df30dd88ea04cd42aa45d48ee63e92.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
         <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_533e4e7be42a5982d93c8580b695f003b3118678.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="962b06c207e808c0557ffd6163ac584025a96021">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.42.3_e8fefb51a1df30dd88ea04cd42aa45d48ee63e92.jar" />
     </item>
     <item
         is-multidex="false"

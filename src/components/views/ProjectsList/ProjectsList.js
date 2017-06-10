@@ -30,7 +30,7 @@ class ProjectList extends Component{
 
     render(){
         return(
-            <MenuContext style={{ flex: 1 }} ref='MenuContext'>
+            <MenuContext style={{ flex: 1 }}>
                 <View style={styles.container}>
                     <Header
                         searchText={this.state.searchText}

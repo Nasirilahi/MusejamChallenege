@@ -9,6 +9,7 @@ import {
 import styles from './styles';
 import ListRow from './ListRow';
 import { connect } from 'react-redux';
+import NotFoundView from './NotFoundView';
 
 const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 /*
@@ -21,6 +22,7 @@ class ListContainer extends Component{
         super();
         this.state = {
             dataSource: ds.cloneWithRows([]),
+            noResult : false,
         };
     }
     componentDidMount(){
@@ -43,9 +45,15 @@ class ListContainer extends Component{
             let projectCell = row.title.toLowerCase();
             return  projectCell.search(text) !== -1;
         });
-        this.setState({
+        if(filteredData.length > 0){
+            this.setState({
             dataSource: this.state.dataSource.cloneWithRows(filteredData),
-        });
+            noResult:false,
+            });   
+        }
+        else{
+            this.setState({noResult:true});
+        }
     };
 
     sortedResult = (sortBy) => {
@@ -75,24 +83,29 @@ class ListContainer extends Component{
     };
 
     viewProjectDetailsPage = (url)=>{
-    this.props.navigator.push({name: 'ProjectDetails', url: url});
+      this.props.navigator.push({name: 'ProjectDetails', url: url});
     };
 
     render(){
         return(
             <View style={styles.listContainer}>
-                <ScrollView showsVerticalScrollIndicator={false}>
-                    {
-                        this.props.data &&
-                        <ListView
-                            dataSource={this.state.dataSource}
-                            enableEmptySections={true}
-                            renderRow={(rowData) => <ListRow rowData={rowData} viewPage={this.viewProjectDetailsPage} sortingListView={this.sortingListView}  />
-                            }
-                        />
+                {
+                    !this.state.noResult ?  
+                    <ScrollView showsVerticalScrollIndicator={false}>
+                        {
+                            this.props.data &&
+                            <ListView
+                                dataSource={this.state.dataSource}
+                                enableEmptySections={true}
+                                renderRow={(rowData) => <ListRow rowData={rowData} viewPage={this.viewProjectDetailsPage} sortingListView={this.sortingListView}  />
+                                }
+                            />
 
-                    }
-                </ScrollView>
+                        }
+                    </ScrollView> :
+                    <NotFoundView />
+                   
+                }
             </View>
         );
     }

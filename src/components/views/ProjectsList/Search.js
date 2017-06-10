@@ -22,7 +22,7 @@ const Search = ({searchText,setSearchText})=>{
                 autoCapitalize='none'
                 value={searchText}
                 underlineColorAndroid={'white'}
-                placeholderTextColor={'rgba(255,255,255,0.70)'}
+                placeholderTextColor={'rgba(255,255,255,0.50)'}
             />
         </View>
     );
