@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/daffomac-13/Documents/Projects/MusejamChallenege/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/daffomac-13/Documents/Projects/MusejamChallenege/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }

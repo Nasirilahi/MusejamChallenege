@@ -1,12 +1,12 @@
 dependencies: \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Modules/JSCSamplingProfiler.m \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Modules/JSCSamplingProfiler.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTAssert.h
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Modules/JSCSamplingProfiler.m \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Modules/JSCSamplingProfiler.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTAssert.h

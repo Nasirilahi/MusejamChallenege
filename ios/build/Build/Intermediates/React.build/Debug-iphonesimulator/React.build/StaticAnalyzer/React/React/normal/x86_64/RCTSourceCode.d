@@ -1,10 +1,10 @@
 dependencies: \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Modules/RCTSourceCode.m \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Modules/RCTSourceCode.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/React/Base/RCTInvalidating.h
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Modules/RCTSourceCode.m \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Modules/RCTSourceCode.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/React/Base/RCTInvalidating.h

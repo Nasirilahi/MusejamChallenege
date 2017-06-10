@@ -13,7 +13,7 @@ import {
     StatusBar,
 } from 'react-native';
 
-StatusBar.setHidden(true);
+//StatusBar.setHidden(true);
 
 const MusejamChallenge = () => (
     <Provider store={store}>

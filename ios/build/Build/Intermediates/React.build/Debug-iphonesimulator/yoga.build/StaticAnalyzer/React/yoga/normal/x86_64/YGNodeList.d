@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.c \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.c \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h

@@ -49,22 +49,21 @@ class ListContainer extends Component{
     };
 
     sortedResult = (sortBy) => {
+       let newArray = this.props.data.slice();
        if(sortBy === 'sortByAlphabet'){
-           let alphabaticallySorted = this.props.data.sort((a,b)=> {
-               let titleA=a.title.toLowerCase(), titleB=b.title.toLowerCase();
-               if (titleA < titleB)
-                   return -1;
-               if (titleA > titleB)
-                   return 1;
-               return 0;
+           let alphabaticallySorted = newArray.sort((a,b)=> {
+                let textA = a.title.toUpperCase();
+                let textB = b.title.toUpperCase();
+                return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
            });
            this.setState({
                dataSource: this.state.dataSource.cloneWithRows(alphabaticallySorted),
            });
+           //this.forceUpdate();
        }
        if(sortBy === 'sortByTime'){
 
-           let dateSortedData = this.props.data.sort((a,b) => {
+           let dateSortedData = newArray.sort((a,b) => {
                const c = new Date(a['end.time']);
                const d = new Date(b['end.time']);
                return c - d;

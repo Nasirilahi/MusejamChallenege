@@ -5,14 +5,9 @@
 	<key>files</key>
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+fNLSVSlrS8kMJtEm4Pxsf42Sr8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		e4E/SlZ5jFwalSOAMnuRonnFR58=
+		</data>
 		<key>Entypo.ttf</key>
 		<data>
 		R4cKZ91Qhxdl95nKqX2ochnuR8U=
@@ -224,7 +219,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		159xYa8BYTXYBTSQ93vfuItTUuY=
+		VmojBUj3SkX2Od//9nau3x1ehlc=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -232,7 +227,7 @@
 		</data>
 		<key>MaterialCommunityIcons.ttf</key>
 		<data>
-		W28Wp8frwGzTm8xVYZzGjCm0cW4=
+		DSN6NXpkKNkGErJOcadN65obBio=
 		</data>
 		<key>MaterialIcons.ttf</key>
 		<data>
@@ -252,7 +247,7 @@
 		</data>
 		<key>PlugIns/MusejamChallengeTests.xctest/MusejamChallengeTests</key>
 		<data>
-		NrW3fPDGLu8p5X3qJsekzEidTbg=
+		xWiqmyq5pmcja/EtyPfayXpJ+pA=
 		</data>
 		<key>PlugIns/MusejamChallengeTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -273,14 +268,12 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+fNLSVSlrS8kMJtEm4Pxsf42Sr8=
+			e4E/SlZ5jFwalSOAMnuRonnFR58=
 			</data>
 			<key>hash2</key>
 			<data>
-			fzhCwycVH2k2CYE34Qx9jAM05gRSQpF/acVed3+F70A=
+			yCfntcFJkiYGnxnCX4DANi6d96mW7JIKzoamJR2Q8uA=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Entypo.ttf</key>
 		<dict>
@@ -865,11 +858,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W28Wp8frwGzTm8xVYZzGjCm0cW4=
+			DSN6NXpkKNkGErJOcadN65obBio=
 			</data>
 			<key>hash2</key>
 			<data>
-			MDrqh7+l+hNgAV8dCByqY6LZ0ainLHm9rBg2H+vNdnU=
+			23dV6HNW9c2rGDZbm9uO2NLcl2/WhbSACZldABqN9m0=
 			</data>
 		</dict>
 		<key>MaterialIcons.ttf</key>
@@ -909,11 +902,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NrW3fPDGLu8p5X3qJsekzEidTbg=
+			xWiqmyq5pmcja/EtyPfayXpJ+pA=
 			</data>
 			<key>hash2</key>
 			<data>
-			DLslSwp04q/n2l7BBJLRJ0g9E76o9VEhGeTvOA9p0UU=
+			7gxXgzrBqjNuhQhE2O4uug30ebmzF5WuOve3gOU3Lpk=
 			</data>
 		</dict>
 		<key>PlugIns/MusejamChallengeTests.xctest/_CodeSignature/CodeResources</key>
@@ -968,6 +961,11 @@
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
 		<key>^version.plist$</key>
 		<true/>
 	</dict>
@@ -1012,6 +1010,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>

@@ -1,21 +1,21 @@
 dependencies: \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/Libraries/Text/RCTText.m \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/Libraries/Text/RCTText.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/node_modules/react-native/Libraries/Text/RCTShadowText.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/Libraries/Text/RCTText.m \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h

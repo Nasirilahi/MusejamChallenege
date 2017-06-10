@@ -87,13 +87,10 @@ const styles = StyleSheet.create({
     }
 });
 
-const mapStateToProps = ({projectList})=>{
-    return{
-        projectList
-    };
-};
+const mapStateToProps = ({projectList})=>({ projectList });
 
-function mapDispatchToProps(dispatch){
+
+const mapDispatchToProps = (dispatch) => {
     return{
         getProjectsList: bindActionCreators(getProjectsList, dispatch)
 

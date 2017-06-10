@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/MusejamChallenge/main.m \
-  /Users/daffomac-13/Documents/Projects/MusejamChallenege/ios/MusejamChallenge/AppDelegate.h
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/MusejamChallenge/main.m \
+  /Users/nasirhusain/Documents/ReactNative/MusejamChallenege/ios/MusejamChallenge/AppDelegate.h

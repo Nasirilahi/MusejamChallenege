@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/res/xml/preferences.xml"
+    },
+    {
         "merged": "/Users/daffomac-13/Documents/Projects/MusejamChallenege/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/daffomac-13/Documents/Projects/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/res/xml/preferences.xml"
     }
