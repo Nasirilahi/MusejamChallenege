@@ -3,123 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_e2737e3d2ee5ab756df6cbf1204b38baf2e60d6e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_05409f615d8ec8820dff8594feb2d615cf40cd42.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_3dc330057c185cac80b162b5fd481d6b0d44337e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_c3872650ac2583e15f5a17f4497a75680cdd4daa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_bf685dcb7779872e56563158b1bf39367a5b3f39.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_695454912e98f7d785f540faf83d9e87a11683af.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_7f0cc40d804cf90eeb9be8ed1082f0bb7cbfd0da.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_63aad337c0a428d778f23e63b291d5940fe57c9d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_098466d495b0b4727f1080c1a0ac7c43a4f59954.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_54b97d07222944bcc819d2b494ed2182cab3da59.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_3318914b8573f6f92a878bbb002bf10d00d43b60.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_b788c0721fb35034c459d2b49075862a20125b15.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_71a89463d5eef5d556af1789284b32c3fc20b011.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -129,12 +12,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_e2737e3d2ee5ab756df6cbf1204b38baf2e60d6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
         <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_f4d7016951f101b86193438e3eea5b8face1c7a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_05409f615d8ec8820dff8594feb2d615cf40cd42.jar" />
     </item>
     <item
         is-multidex="false"
@@ -153,6 +54,15 @@
         revision="23.0.1"
         sha1="b319ff9834bbeb9be394687614eb86892699ea14">
         <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/MusejamChallenge-react-native-vector-icons-unspecified_cd125f1a65fa4d48392af0c0140184d3d1b66f6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_3dc330057c185cac80b162b5fd481d6b0d44337e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,6 +93,42 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_c3872650ac2583e15f5a17f4497a75680cdd4daa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_bf685dcb7779872e56563158b1bf39367a5b3f39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/MusejamChallenge/react-native-linear-gradient/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b1de8f75805268154da5e88bb6195760b9d8966f">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/MusejamChallenge-react-native-linear-gradient-unspecified_bc0eaf59210489fbadc6ce7a21f4ad03cb317f0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_695454912e98f7d785f540faf83d9e87a11683af.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -192,12 +138,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_7f0cc40d804cf90eeb9be8ed1082f0bb7cbfd0da.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="1137942adeb03984c1311b662363dd38fc238fd3">
         <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.11.0_d742340150a358356adf89a179a27a70d2fdb2fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_63aad337c0a428d778f23e63b291d5940fe57c9d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -219,12 +183,57 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_098466d495b0b4727f1080c1a0ac7c43a4f59954.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_54b97d07222944bcc819d2b494ed2182cab3da59.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
         <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_46abb1cd4ec092994ca12c81efe91ef71991198e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_3318914b8573f6f92a878bbb002bf10d00d43b60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_b788c0721fb35034c459d2b49075862a20125b15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/nasirhusain/Documents/ReactNative/MusejamChallenege/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_71a89463d5eef5d556af1789284b32c3fc20b011.jar" />
     </item>
 
 </items>

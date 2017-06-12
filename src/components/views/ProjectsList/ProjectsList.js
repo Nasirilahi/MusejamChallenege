@@ -31,19 +31,19 @@ class ProjectList extends Component{
 
     render(){
         return(
-            <MenuContext style={{ flex: 1 }}>
                 <LinearGradient colors={['#77A1D3', '#79CBCA', '#E684AE']} style={styles.container}>
-                    <Header
-                        searchText={this.state.searchText}
-                        setSearchText={this.setSearchText}
-                        sortingListView={this.props.sortByAction}
-                    />
-                    <ListContainer
-                        data={this.props.projectList.data} {...this.props}
-                        searchText={this.state.searchText}
-                    />
+                      <MenuContext style={{ flex: 1 }}>
+                        <Header
+                            searchText={this.state.searchText}
+                            setSearchText={this.setSearchText}
+                            sortingListView={this.props.sortByAction}
+                        />
+                        <ListContainer
+                            data={this.props.projectList.data} {...this.props}
+                            searchText={this.state.searchText}
+                        />
+                     </MenuContext>
                 </LinearGradient>
-            </MenuContext>
         );
     }
 }

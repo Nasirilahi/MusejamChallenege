@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     menuOptions:{
     },
     menuOpetionsText:{
-        color:'rgba(0,0,0,0.80)'
+        color:'grey',
     }
 });
 

@@ -4,6 +4,7 @@ import {
     StyleSheet,
     View,
     Text,
+    TouchableOpacity,
 } from 'react-native';
 import styles from './styles';
 import Menu, {
@@ -18,11 +19,13 @@ import Menu, {
  * functional Filter component filter/Sorting options
  * **/
 
+const renderTouchable = () => <TouchableOpacity/>;
+
 const FilterSort = ({sortingListView})=>{
     return(
         <View style={styles.filterSortContainer}>
             <Menu onSelect={(value) => sortingListView(value)}>
-                    <MenuTrigger style={styles.menuTrigger}>
+                    <MenuTrigger renderTouchable={renderTouchable}  style={styles.menuTrigger}>
                         <Icon style={{backgroundColor:'transparent'}}  name='sort-amount-desc' size={20} color='white'/>
                     </MenuTrigger>
                     <MenuOptions style={styles.menuOptions}>
@@ -35,7 +38,7 @@ const FilterSort = ({sortingListView})=>{
                     </MenuOptions>
             </Menu>
             <Menu onSelect={(value) => console.log(value)}>
-                <MenuTrigger style={styles.menuTrigger}>
+                <MenuTrigger renderTouchable={renderTouchable}  style={styles.menuTrigger}>
                     <Icon  style={{backgroundColor:'transparent'}}  name='filter' size={20} color='white'/>
                 </MenuTrigger>
                 <MenuOptions style={styles.menuOptions}>
